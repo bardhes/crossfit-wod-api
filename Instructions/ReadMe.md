@@ -7,3 +7,4 @@ Based on https://www.freecodecamp.org/news/rest-api-design-best-practices-build-
 1. [Adding the Workout routes and controller](./2-Workouts.md)
 1. [Adding the Workout service and data file](./3-WorkoutData.md)
 1. [Receiving and parsing Json data](./4-ReceivingJson.md)
+1. [Implement remaining methods](./5-ImplementRemainingMethods.md)
