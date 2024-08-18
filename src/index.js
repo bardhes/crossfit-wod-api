@@ -1,9 +1,13 @@
 const express = require("express");
+const bodyParser = require("body-parser");
+
 const v1Router = require("./routes/v1");
 const v1WorkoutRouter = require("./routes/v1/workoutRoutes");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+app.use(bodyParser.json());
 
 // 🌳 Root route
 app.get("/", (req, res) => {
